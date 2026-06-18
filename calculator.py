@@ -1,4 +1,6 @@
-def divide(a, b):
-    return a / b
-
-print(divide(10, 2))
+def divide(numerator, denominator):
+    if denominator == 0:
+        return ValueError
+    
+    return numerator / denominator
+print(divide(10, 0))
